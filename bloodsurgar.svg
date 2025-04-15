@@ -1,0 +1,290 @@
+<svg viewBox="0 0 800 5000" xmlns="http://www.w3.org/2000/svg">
+  <!-- 전체 배경 -->
+  <rect width="800" height="5000" fill="white"/>
+  
+  <!-- 헤더 섹션 (0-600px) -->
+  <rect x="0" y="0" width="800" height="600" fill="#4D44AB" opacity="0.9"/>
+  <text x="400" y="180" font-family="Arial, sans-serif" font-size="50" text-anchor="middle" font-weight="bold" fill="white">탄수화물과 혈당 스파이크</text>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="34" text-anchor="middle" fill="white">연령과 성별에 따른 차이</text>
+  
+  <!-- 아이콘/그래픽 -->
+  <circle cx="400" cy="400" r="70" fill="#B54369" opacity="0.8"/>
+  <path d="M360,380 L400,360 L440,380 L480,360 L520,380 L520,420 L480,440 L440,420 L400,440 L360,420 Z" fill="none" stroke="#568C1C" stroke-width="4"/>
+  
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="white">스크롤하여 내용 보기</text>
+  <path d="M400,570 L400,590 L420,580 Z" fill="white"/>
+  
+  <!-- 목차 섹션 (600-950px) -->
+  <rect x="0" y="600" width="800" height="350" fill="#f5f5f5"/>
+  <text x="400" y="650" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" font-weight="bold" fill="#4D44AB">목차</text>
+  
+  <g font-family="Arial, sans-serif" fill="#202020">
+    <text x="100" y="700" font-size="24" font-weight="bold">1. 혈당 스파이크란?</text>
+    <text x="100" y="740" font-size="24" font-weight="bold">2. 연령에 따른 혈당 반응 차이</text>
+    <text x="100" y="780" font-size="24" font-weight="bold">3. 어린이(3~5세)의 특성</text>
+    <text x="100" y="820" font-size="24" font-weight="bold">4. 성인여성(40~45세)의 특성</text>
+    <text x="100" y="860" font-size="24" font-weight="bold">5. 권장사항 및 결론</text>
+  </g>
+  
+  <circle cx="650" cy="700" r="20" fill="#B54369" opacity="0.7"/>
+  <circle cx="650" cy="770" r="25" fill="#568C1C" opacity="0.7"/>
+  <circle cx="650" cy="840" r="30" fill="#1B67B2" opacity="0.7"/>
+  
+  <!-- 혈당 스파이크란? 섹션 (950-1700px) -->
+  <rect x="0" y="950" width="800" height="50" fill="#4D44AB" opacity="0.8"/>
+  <text x="400" y="985" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" font-weight="bold" fill="white">혈당 스파이크란?</text>
+  
+  <g transform="translate(50, 1020)">
+    <g font-family="Arial, sans-serif" fill="#202020">
+      <text x="0" y="40" font-size="28" font-weight="bold">정의:</text>
+      <text x="0" y="80" font-size="24">식사 후 혈당이 급격히 상승했다가 떨어지는 현상</text>
+      <text x="0" y="120" font-size="22">- 공복 혈당: 100mg/dL 이하 (정상)</text>
+      <text x="0" y="160" font-size="22">- 식후 혈당: 140mg/dL 이하 (정상)</text>
+      
+      <text x="0" y="220" font-size="28" font-weight="bold">영향:</text>
+      <text x="0" y="260" font-size="22">- 단기: 피로감, 집중력 저하, 허기짐</text>
+      <text x="0" y="300" font-size="22">- 장기: 인슐린 저항성, 당뇨병 위험 증가</text>
+      <text x="0" y="340" font-size="22">- 심혈관 질환 위험 증가</text>
+      <text x="0" y="380" font-size="22">- 체중 증가 촉진</text>
+    </g>
+  </g>
+  
+  <!-- 혈당 스파이크 그래프 -->
+  <g transform="translate(50, 1450)">
+    <!-- 좌표축 -->
+    <line x1="0" y1="200" x2="700" y2="200" stroke="#202020" stroke-width="2"/>
+    <line x1="0" y1="200" x2="0" y2="0" stroke="#202020" stroke-width="2"/>
+    
+    <!-- 눈금 -->
+    <text x="-10" y="200" font-family="Arial, sans-serif" font-size="14" text-anchor="end">0</text>
+    <text x="-10" y="133" font-family="Arial, sans-serif" font-size="14" text-anchor="end">100</text>
+    <text x="-10" y="67" font-family="Arial, sans-serif" font-size="14" text-anchor="end">200</text>
+    
+    <text x="0" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">0</text>
+    <text x="117" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">30분</text>
+    <text x="234" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">60분</text>
+    <text x="351" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">90분</text>
+    <text x="468" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">120분</text>
+    <text x="585" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">180분</text>
+    
+    <!-- 정상 혈당 영역 표시 -->
+    <rect x="0" y="67" width="700" height="66" fill="#568C1C" opacity="0.2"/>
+    <text x="650" y="87" font-family="Arial, sans-serif" font-size="14" fill="#568C1C">정상 범위</text>
+    
+    <!-- 혈당 그래프 -->
+    <path d="M0,167 C47,133 93,67 140,53 S234,47 280,67 S374,120 420,133 S514,153 560,160 S654,165 700,167" 
+          fill="none" stroke="#B54369" stroke-width="4"/>
+    <text x="500" y="40" font-family="Arial, sans-serif" font-size="18" fill="#B54369" font-weight="bold">혈당 스파이크</text>
+    <path d="M480,50 L380,80" stroke="#B54369" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- 화살표 정의 -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#B54369"/>
+      </marker>
+    </defs>
+  </g>
+  
+  <!-- 연령에 따른 혈당 반응 차이 섹션 (1700-2600px) -->
+  <rect x="0" y="1700" width="800" height="50" fill="#4D44AB" opacity="0.8"/>
+  <text x="400" y="1735" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" font-weight="bold" fill="white">연령에 따른 혈당 반응 차이</text>
+  
+  <g transform="translate(50, 1770)">
+    <g font-family="Arial, sans-serif" fill="#202020">
+      <text x="0" y="40" font-size="26" font-weight="bold">주요 차이점:</text>
+      
+      <text x="0" y="90" font-size="24">• 어린이(3~5세):</text>
+      <text x="20" y="130" font-size="20">- 인슐린 감수성이 높음</text>
+      <text x="20" y="170" font-size="20">- 성장에 필요한 에너지로 탄수화물 우선 활용</text>
+      <text x="20" y="210" font-size="20">- 대사율이 높음</text>
+      
+      <text x="0" y="260" font-size="24">• 성인여성(40~45세):</text>
+      <text x="20" y="300" font-size="20">- 호르몬 변화로 인슐린 감수성 변화</text>
+      <text x="20" y="340" font-size="20">- 대사율 감소</text>
+      <text x="20" y="380" font-size="20">- 폐경 전후 체중 변화와 지방 분포 변화</text>
+    </g>
+  </g>
+  
+  <!-- 혈당 반응 그래프 -->
+  <g transform="translate(50, 2200)">
+    <!-- 좌표축 -->
+    <line x1="0" y1="250" x2="700" y2="250" stroke="#202020" stroke-width="2"/>
+    <line x1="0" y1="250" x2="0" y2="0" stroke="#202020" stroke-width="2"/>
+    
+    <!-- 눈금 -->
+    <text x="-10" y="250" font-family="Arial, sans-serif" font-size="14" text-anchor="end">0</text>
+    <text x="-10" y="187" font-family="Arial, sans-serif" font-size="14" text-anchor="end">80</text>
+    <text x="-10" y="125" font-family="Arial, sans-serif" font-size="14" text-anchor="end">160</text>
+    <text x="-10" y="62" font-family="Arial, sans-serif" font-size="14" text-anchor="end">240</text>
+    
+    <text x="0" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">0</text>
+    <text x="140" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">30분</text>
+    <text x="280" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">60분</text>
+    <text x="420" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">90분</text>
+    <text x="560" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">120분</text>
+    <text x="700" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">180분</text>
+    
+    <!-- 정상 혈당 영역 표시 -->
+    <rect x="0" y="125" width="700" height="62" fill="#568C1C" opacity="0.2"/>
+    <text x="630" y="150" font-family="Arial, sans-serif" font-size="14" fill="#568C1C">정상 범위</text>
+    
+    <!-- 혈당 그래프 - 어린이 -->
+    <path d="M0,183 C41,158 112,150 140,142 S252,133 280,142 S392,158 420,167 S532,179 560,181 S672,182 700,183" 
+          fill="none" stroke="#568C1C" stroke-width="4"/>
+          
+    <!-- 혈당 그래프 - 성인 -->
+    <path d="M0,175 C41,142 112,100 140,92 S252,83 280,100 S392,125 420,142 S532,158 560,167 S672,171 700,175" 
+          fill="none" stroke="#B54369" stroke-width="4"/>
+          
+    <!-- 범례 -->
+    <rect x="450" y="30" width="20" height="4" fill="#568C1C"/>
+    <text x="480" y="35" font-family="Arial, sans-serif" font-size="16">어린이(3~5세)</text>
+    
+    <rect x="450" y="60" width="20" height="4" fill="#B54369"/>
+    <text x="480" y="65" font-family="Arial, sans-serif" font-size="16">성인여성(40~45세)</text>
+  </g>
+  
+  <text x="400" y="2550" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" font-style="italic" fill="#202020">
+    동일한 탄수화물 섭취 후 혈당 변화 비교 (개념도)
+  </text>
+  
+  <!-- 어린이(3~5세)의 탄수화물 섭취 특성 섹션 (2600-3300px) -->
+  <rect x="0" y="2600" width="800" height="50" fill="#4D44AB" opacity="0.8"/>
+  <text x="400" y="2635" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" font-weight="bold" fill="white">어린이(3~5세)의 탄수화물 섭취 특성</text>
+  
+  <g transform="translate(50, 2670)">
+    <g font-family="Arial, sans-serif" fill="#202020">
+      <!-- 생리적 특성 -->
+      <text x="0" y="40" font-size="26" font-weight="bold" fill="#568C1C">생리적 특성:</text>
+      <text x="0" y="80" font-size="20">• 높은 대사율과 빠른 소화</text>
+      <text x="0" y="120" font-size="20">• 성장 발달에 따른 높은 에너지 요구량</text>
+      <text x="0" y="160" font-size="20">• 상대적으로 높은 인슐린 감수성</text>
+      <text x="0" y="200" font-size="20">• 미성숙한 소화 시스템</text>
+      
+      <!-- 권장사항 -->
+      <text x="0" y="260" font-size="26" font-weight="bold" fill="#568C1C">식이 권장사항:</text>
+      <text x="0" y="300" font-size="20">• 균형 잡힌 식사로 다양한 영양소 공급</text>
+      <text x="0" y="340" font-size="20">• 단순당(과자, 음료수) 과다 섭취 제한</text>
+      <text x="0" y="380" font-size="20">• 소화 기능 고려: 잡곡과 백미 적절히 혼합</text>
+      <text x="0" y="420" font-size="20">• 식이섬유 과다 섭취는 영양소 흡수 방해</text>
+      <text x="0" y="460" font-size="20">• 극단적 식단 제한 피하기</text>
+      
+      <!-- 주의사항 -->
+      <text x="0" y="520" font-size="26" font-weight="bold" fill="#568C1C">주의사항:</text>
+      <text x="0" y="560" font-size="20">• 성인과 동일한 기준 적용 금지</text>
+      <text x="0" y="600" font-size="20">• 성장 저해 위험 고려</text>
+    </g>
+  </g>
+  
+  <!-- 어린이 아이콘 -->
+  <g transform="translate(400, 3200)">
+    <circle cx="50" cy="0" r="40" fill="#568C1C" opacity="0.7"/>
+    <rect x="40" y="50" width="20" height="40" fill="#568C1C" opacity="0.7"/>
+    <rect x="30" y="70" width="10" height="30" fill="#568C1C" opacity="0.7" transform="rotate(-20, 30, 70)"/>
+    <rect x="60" y="70" width="10" height="30" fill="#568C1C" opacity="0.7" transform="rotate(20, 60, 70)"/>
+  </g>
+  
+  <!-- 성인여성(40~45세)의 탄수화물 섭취 특성 섹션 (3300-4000px) -->
+  <rect x="0" y="3300" width="800" height="50" fill="#4D44AB" opacity="0.8"/>
+  <text x="400" y="3335" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" font-weight="bold" fill="white">성인여성(40~45세)의 탄수화물 섭취 특성</text>
+  
+  <g transform="translate(50, 3370)">
+    <g font-family="Arial, sans-serif" fill="#202020">
+      <!-- 생리적 특성 -->
+      <text x="0" y="40" font-size="26" font-weight="bold" fill="#B54369">생리적 특성:</text>
+      <text x="0" y="80" font-size="20">• 호르몬 변화 (폐경 전후)</text>
+      <text x="0" y="120" font-size="20">• 대사율 감소 경향</text>
+      <text x="0" y="160" font-size="20">• 인슐린 감수성 변화</text>
+      <text x="0" y="200" font-size="20">• 체지방 분포 변화</text>
+      
+      <!-- 권장사항 -->
+      <text x="0" y="260" font-size="26" font-weight="bold" fill="#B54369">식이 권장사항:</text>
+      <text x="0" y="300" font-size="20">• 정제된 탄수화물 대신 전체곡물 선택</text>
+      <text x="0" y="340" font-size="20">• 채소-단백질-탄수화물 순서로 식사</text>
+      <text x="0" y="380" font-size="20">• 총 에너지의 45-65% 탄수화물 권장</text>
+      <text x="0" y="420" font-size="20">• 식이섬유 섭취 증가</text>
+      <text x="0" y="460" font-size="20">• 개인 활동량과 건강상태에 맞춘 조절</text>
+    </g>
+  </g>
+  
+  <!-- 식사 순서 그림 -->
+  <g transform="translate(400, 3800)">
+    <text x="0" y="-30" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" font-weight="bold" fill="#202020">권장 식사 순서</text>
+    
+    <circle cx="-150" cy="0" r="40" fill="#568C1C" opacity="0.7"/>
+    <text x="-150" y="50" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#202020">채소</text>
+    <text x="-150" y="75" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#202020">첫 번째</text>
+    
+    <path d="-100,0 L-50,0" stroke="#202020" stroke-width="2" marker-end="url(#arrowhead2)"/>
+    
+    <circle cx="0" cy="0" r="40" fill="#1B67B2" opacity="0.7"/>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#202020">단백질</text>
+    <text x="0" y="75" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#202020">두 번째</text>
+    
+    <path d="50,0 L100,0" stroke="#202020" stroke-width="2" marker-end="url(#arrowhead2)"/>
+    
+    <circle cx="150" cy="0" r="40" fill="#C77F1A" opacity="0.7"/>
+    <text x="150" y="50" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#202020">탄수화물</text>
+    <text x="150" y="75" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#202020">마지막</text>
+    
+    <!-- 화살표 정의 -->
+    <defs>
+      <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#202020"/>
+      </marker>
+    </defs>
+  </g>
+  
+  <!-- 결론 섹션 (4000-4800px) -->
+  <rect x="0" y="4000" width="800" height="50" fill="#4D44AB" opacity="0.8"/>
+  <text x="400" y="4035" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" font-weight="bold" fill="white">결론</text>
+  
+  <g transform="translate(50, 4070)">
+    <g font-family="Arial, sans-serif" fill="#202020">
+      <text x="350" y="40" font-size="28" text-anchor="middle" font-weight="bold">탄수화물과 혈당 스파이크:</text>
+      <text x="350" y="80" font-size="28" text-anchor="middle" font-weight="bold">연령과 성별에 따른 맞춤 접근이 필요합니다</text>
+      
+      <!-- 결론 요약 -->
+      <g transform="translate(0, 140)">
+        <text x="0" y="0" font-size="24" font-weight="bold">주요 연구 결과:</text>
+        
+        <text x="0" y="50" font-size="20">• 혈당 스파이크는 연령과 성별에 따라 다른 영향을 미침</text>
+        <text x="0" y="90" font-size="20">• 단순히 흰쌀밥이나 빵을 배제하는 것보다 식사 패턴이 중요</text>
+        <text x="0" y="130" font-size="20">• 3~5세 어린이는 성장에 필요한 에너지 공급이 우선</text>
+        <text x="0" y="170" font-size="20">• 40~45세 여성은 호르몬 변화를 고려한 혈당 관리 필요</text>
+        <text x="0" y="210" font-size="20">• 탄수화물의 양보다 '탄수화물의 질'이 더 중요</text>
+        <text x="0" y="250" font-size="20">• 식사 순서는 혈당 관리에 효과적</text>
+        <text x="0" y="290" font-size="20">• 균형 잡힌 식이와 생활습관이 장기적 건강에 중요</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- 아이콘 -->
+  <g transform="translate(400, 4500)">
+    <circle cx="-150" cy="0" r="40" fill="#568C1C" opacity="0.7"/>
+    <text x="-150" y="60" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#202020">균형 잡힌 식단</text>
+    
+    <circle cx="0" cy="0" r="40" fill="#1B67B2" opacity="0.7"/>
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#202020">개인화된 접근</text>
+    
+    <circle cx="150" cy="0" r="40" fill="#B54369" opacity="0.7"/>
+    <text x="150" y="60" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#202020">생활습관 개선</text>
+  </g>
+  
+  <!-- 참고 문헌 (4800-5000px) -->
+  <rect x="0" y="4800" width="800" height="50" fill="#4D44AB" opacity="0.8"/>
+  <text x="400" y="4835" font-family="Arial, sans-serif" font-size="26" text-anchor="middle" font-weight="bold" fill="white">참고 문헌</text>
+  
+  <g transform="translate(50, 4870)">
+    <g font-family="Arial, sans-serif" font-size="14" fill="#202020">
+      <text x="0" y="0">1. 한국일보 (2022). "음식 섭취 후 혈당 급격히 치솟는 '혈당 스파이크' 어떻게 극복할까?"</text>
+      <text x="0" y="30">2. 나에게 딱 맞는 건강 꿀팁 (2024). "혈당 스파이크 - 정의, 영향, 당뇨와의 관계, 식습관"</text>
+      <text x="0" y="60">3. Reynolds et al. (2019). "Carbohydrate quality and human health" The Lancet, 393(10170)</text>
+      <text x="0" y="90">4. Frontiers in Nutrition (2021). "Associations of Whole Grain and Refined Grain Consumption"</text>
+    </g>
+  </g>
+  
+  <!-- 푸터 -->
+  <rect x="0" y="4950" width="800" height="50" fill="#4D44AB" opacity="0.8"/>
+  <text x="400" y="4980" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">혈당 스파이크 연구 보고서 - 모바일 인포그래픽</text>
+</svg>

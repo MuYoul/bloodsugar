@@ -86,11 +86,18 @@
 .research-report ul {
   padding-left: 1.5rem;
   margin-bottom: 1rem;
+  list-style-type: disc;
 }
 
-.research-report li {
+.research-report ul li {
   margin-bottom: 0.5rem;
   line-height: 1.5;
+  display: list-item;
+  list-style-position: outside;
+}
+
+.research-report ul li::marker {
+  color: #333;
 }
 
 .chart-container {

@@ -6,9 +6,88 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* 특별한 텍스트 스타일 */
-.text-text-100 {
+/* 새로운 스타일 시작 */
+.research-report {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.research-report-section {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.report-header {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.main-title {
+  font-size: 1.8rem;
+  font-weight: bold;
   color: #333;
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.subsection-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555;
+  margin: 1rem 0;
+}
+
+.section-description {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.recommendation-list {
+  list-style: disc;
+  padding-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.recommendation-list li {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+  position: relative;
+  display: list-item;
+}
+
+.recommendation-list li::marker {
+  color: #555;
+}
+
+.chart-container {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.report-footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eaeaea;
+  text-align: center;
+  color: #888;
+  font-size: 0.9rem;
+  padding: 1rem;
 }
 
 /* 링크 스타일 */
@@ -46,84 +125,14 @@
   opacity: 1;
 }
 
-.research-report {
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  margin-bottom: 2rem;
-}
-
-.research-report h1 {
-  color: #333;
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.research-report h2 {
-  color: #444;
-  font-size: 1.4rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #eaeaea;
-  padding-bottom: 0.5rem;
-}
-
-.research-report h3 {
-  color: #555;
-  font-size: 1.2rem;
-  margin-top: 1.2rem;
-  margin-bottom: 0.8rem;
-}
-
-.research-report p {
-  color: #333;
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
-
-.research-report ul {
-  padding-left: 1.5rem;
-  margin-bottom: 1rem;
-  list-style-type: disc;
-}
-
-.research-report ul li {
-  margin-bottom: 0.5rem;
-  line-height: 1.5;
-  display: list-item;
-  list-style-position: outside;
-}
-
-.research-report ul li::marker {
-  color: #333;
-}
-
-.chart-container {
-  margin: 1.5rem 0;
-  padding: 1rem;
-  background: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
-}
-
-footer {
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid #eaeaea;
-  text-align: center;
-  color: #888;
-  font-size: 0.9rem;
-}
-
+/* 미디어 쿼리 */
 @media (max-width: 768px) {
   #root {
     padding: 1rem;
   }
   
-  .research-report {
-    padding: 0.5rem;
+  .research-report-section {
+    padding: 1rem 0.5rem;
   }
   
   .chart-container {
